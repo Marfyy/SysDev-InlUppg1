@@ -1,0 +1,23 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+///Written by Martin Säfsten, AB3976
+namespace inlUppg3
+{
+    /// <summary>
+    /// TreeNodes that are used in the Binary Tree
+    /// </summary>
+    class TreeNode
+    {
+        public TreeNode left;
+        public TreeNode right;
+        public int value;
+        public TreeNode(int value)
+        {
+            this.value = value;
+            this.left = null;
+            this.right = null;
+        }
+    }
+}
