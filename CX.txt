@@ -6,7 +6,7 @@ using System.Text;
 namespace inlUppg3
 {
     /// <summary>
-    /// TreeNodes that are used in the Binary Tree
+    /// TreeNodes that are used in the Binary Tree.
     /// </summary>
     class TreeNode
     {
