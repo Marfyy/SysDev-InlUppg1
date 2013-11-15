@@ -13,11 +13,15 @@ namespace inlUppg3
         public TreeNode left;
         public TreeNode right;
         public int value;
+	public string msg;
+	public bool used;
         public TreeNode(int value)
         {
-            this.value = value;
-            this.left = null;
-            this.right = null;
+            	this.value = value;
+            	this.left = null;
+            	this.right = null;
+		this.msg = "";
+		this.used = false;
         }
     }
 }
