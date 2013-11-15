@@ -8,7 +8,7 @@ namespace inlUppg3
     /// <summary>
     /// TreeNodes that are used in the Binary Tree.
     /// </summary>
-    class TreeNode
+    class TreeNode_Martin
     {
         public TreeNode left;
         public TreeNode right;
